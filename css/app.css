@@ -1,0 +1,284 @@
+
+/* latin */
+@font-face {
+  font-family: 'Rancho';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rancho'), url(https://fonts.gstatic.com/s/rancho/v6/S-YcqhLwgYWxIA-a7eDp2g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+@-webkit-keyframes font-effect-fire-animation-keyframes {
+  0% {
+    text-shadow: 0 -0.05em 0.2em #FFF, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+  25% {
+    text-shadow: 0 -0.05em 0.2em #FFF, 0 -0.05em 0.17em #FE0, 0.04em -0.12em 0.22em #FC0, 0.04em -0.13em 0.27em #F90, 0.05em -0.23em 0.33em #F70, 0.07em -0.28em 0.47em #F70, 0.1em -0.3em 0.8em #F50, 0.1em -0.3em 0.9em #F40;
+  }
+  50% {    text-shadow: 0 -0.05em 0.2em #FFF, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+  75% {
+    text-shadow: 0 -0.05em 0.2em #FFF, 0 -0.06em 0.18em #FE0, 0.05em -0.15em 0.23em #FC0, 0.05em -0.15em 0.3em #F90, 0.07em -0.25em 0.4em #F70, 0.09em -0.3em 0.5em #F70, 0.1em -0.3em 0.9em #F50, 0.1em -0.3em 1.0em #F40;
+  }
+  100% {
+    text-shadow: 0 -0.05em 0.2em #FFF, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+}
+.font-effect-fire-animation {
+  -webkit-animation-duration:0.8s;
+  -webkit-animation-name:font-effect-fire-animation-keyframes;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-direction:alternate;
+  color: #ffe;
+}
+
+/*.menu  a{
+    background: lightyellow;
+    border: 2px solid ;
+    margin-left: 7px;
+}
+
+.menu a:hover {
+    background: lightgreen;
+}
+
+.menu  a:active{
+    background-color: deepskyblue;
+}
+*/
+
+.site-logo {
+    color: white;
+    line-height: 80px;
+    margin-left: 50px;    
+}
+
+.nav-desktop {
+    background-color: #222;
+    height: 80px;
+    padding: 0;
+}
+
+.hero {
+    background: url("../img/bg.png");
+    padding: 80px 0;
+}
+
+.hero p{
+    color: rgba(255, 255, 255, 0.8);
+    width: 70%;
+    font-family: sans-serif;
+    word-spacing: 4px;
+    font-size: 18px;
+}  
+
+.main {
+    padding: 80px 0;
+}
+
+.wrap {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #222;
+    padding: 80px 0;
+}
+
+footer h4{
+    color: white;
+    font-size: 1.3em;
+}
+
+footer a {
+    display: block;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.8em;
+}
+
+footer a:hover {
+    display: block;
+    color: rgba(255, 255, 255, 0.82);
+}
+
+footer hr {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-desktop .menu-desktop {
+    line-height: 80px;
+    background-color: transparent;
+}
+
+.menu-desktop> li >a {
+    display: inline-block;
+    line-height: 80px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color:azure;
+}
+
+.menu-desktop> li >a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+@media (max-width: 639px) { 
+    
+    .nav-desktop {
+        display: none;
+    }
+
+}
+
+footer hr{
+    margin: 2px;
+}
+
+footer a span {
+    font-weight: bold;
+}
+
+.title-bar {
+    
+  height: 50px;
+  padding-top: 14px;
+    
+}
+
+#offCanvas ul{
+    padding-top: 10px;    
+}
+
+#offCanvas a{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.95em;
+}
+
+#offCanvas a:hover{
+     color: rgba(255, 255, 255, 1);
+}
+
+.close-button{
+    color: aliceblue;
+}
+
+.close-button:hover{
+    color: aliceblue;
+}
+
+/* My beautiful face  */
+.myface {
+    height: 321.61px;
+    width: 321.61px;
+    border-radius: 200px;
+    border: 15px dashed yellow;  
+}
+
+.myface {
+    
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+
+.myface:hover {
+    transform: rotate(360deg);
+    transform: rotate(360deg);
+    border: 10px dashed red;  
+}
+
+.greet {
+    font-family: cursive;
+    font-size: 18px;
+    color: firebrick;
+}
+
+.greet:hover{
+    background-color: lawngreen;
+    cursor: pointer;
+}
+
+.welcome {
+    color:aqua;
+    font-family:  "Comic Sans MS", sans-serif, cursive;
+}
+
+.hireme {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+}
+
+.self {
+    
+    font-family: "Lucida Sans", sans-serif, "Times New Roman"; 
+    padding: 8px;
+    border-radius: 20px;
+    background-color: lightgoldenrodyellow;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    
+}
+
+.self:hover {
+    background-color: aqua;
+    cursor: crosshair;
+}
+
+.attract {
+    
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: 1.2s;
+    font-size: 1.1em;
+    color:crimson;
+    
+}
+
+.monkey-jam{    
+    margin-top: 2%;
+}
+
+.tinyfy {
+    max-width: 40px;
+    max-height: 60px;
+}
+
+.card-divider {
+    background: url(../img/bg.png) repeat center center;
+    color: white;
+}
+
+.card-divider a{
+    color:white;
+}
+
+.card-divider a:hover{
+    color:chocolate;
+}
+
+.orbit-header {
+    background-color: darkslategrey;
+    border-radius: 3px;
+    color: white;
+    padding: 0;
+}
+
+.orbit-message {
+    background-color: beige;
+}
+
+.callout {    
+    border: none;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
