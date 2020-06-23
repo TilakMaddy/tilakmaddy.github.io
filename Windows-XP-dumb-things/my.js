@@ -342,10 +342,16 @@ boxes['nerr'].addEventListener('mousedown', async function (e){
 });
 
 
-
+// staring for first time click or press enter
 async function waitForAKey() {
   const keyPromise = new Promise(function (resolve, reject) {
     window.addEventListener('keydown', function () {
+      resolve();
+    }, {
+      once : true
+    });
+    
+    window.addEventListener('click', function () {
       resolve();
     }, {
       once : true
