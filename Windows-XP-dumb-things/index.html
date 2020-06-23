@@ -18,7 +18,9 @@
     <span class="gbar"></span>
     <span class="gbar"></span>
   </div>
-  <div class="load--dir"></div>
+  <div class="load--dir">
+    CLICK or Press ENTER
+  </div>
 </div>
 
 <div class="container">
@@ -246,7 +248,7 @@ html, body {
   background:#3B77BC;
   margin-right: -1px;
   transform: translate(-28px);
-  transition: transform 2s cubic-bezier(.31,1.31,1,-0.25); /*cubic-bezier(0,.74,1,-0.22);*/
+  transition: transform 2.5s cubic-bezier(.31,1.31,1,-0.25); /*cubic-bezier(0,.74,1,-0.22);*/
 }
 
 .finish_loading {
@@ -265,9 +267,14 @@ html, body {
 }
 
 .load--dir {
+  font-size: 2rem;
   position: fixed;
-  bottom: 40px;
-  right:40px;
+  top: 40px;
+  left:40px;
+}
+
+.dnone {
+  display: none;
 }
 
 * {
