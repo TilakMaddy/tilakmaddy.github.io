@@ -99,7 +99,15 @@ const infoBar = new Audio('icons/sounds/Windows XP Information Bar.wav');
       let doneDisplaying = false; //? for hwu windows detected mouse move
 
 
-      function loadScreen(cbk) {
+      async function loadScreen(cbk, first=false) {
+        if(first) {
+          const interval = setInterval(function () {
+            document.querySelector('.load--dir').classList.toggle('dnone');
+          }, 30);
+          await waitForAKey();
+          clearInterval(interval);
+        }
+
         setTimeout(function(){
           gbars.forEach(gbar => {
             gbar.classList.add('finish_loading');
@@ -192,7 +200,7 @@ const infoBar = new Audio('icons/sounds/Windows XP Information Bar.wav');
               displayBox(boxes['tfs']);
               window.addEventListener('mousemove', hwuMegaDisplay, { once: true });
             }, 800);
-          });
+          }, true);
 
           function stopStart(stop, start) {
             if(stop) {
@@ -332,3 +340,16 @@ boxes['nerr'].addEventListener('mousedown', async function (e){
   await wait(130);
   this.querySelectorAll('.nerrc')[1].style.display = '';
 });
+
+
+
+async function waitForAKey() {
+  const keyPromise = new Promise(function (resolve, reject) {
+    window.addEventListener('keydown', function () {
+      resolve();
+    }, {
+      once : true
+    });
+  });
+  return keyPromise;
+}
