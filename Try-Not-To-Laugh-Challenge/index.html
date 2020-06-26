@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRY NOT TO LAUGH</title>
+
+    <link href="https://unpkg.com/video.js@7/dist/video-js.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/@videojs/themes@1/dist/sea/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  <body>
+    <video id="dontshowvideo" height="560" width="720" autoplay muted></video>
+    <div class="container">
+
+      <h1>TRY NOT TO LAUGH FOR 10 MINUTES -  CHALLENGE</h1>
+
+      <div class="video-container">
+
+        <!-- Loading screeen hacked into share-screen which is displayed in the end-->
+        <div class="share-screen" style="height: 100%; width:100%; background: black; display: grid; justify-content: center; align-items: center;;">
+          <img src="https://media.giphy.com/media/3y0oCOkdKKRi0/giphy.gif" alt="loading image">
+        </div>
+
+        <video
+          id="laughvideo"
+          class="video-js vjs-theme-sea"
+          controls
+          preload="auto"
+          width="1000"
+          height="560"
+          data-setup="{}">
+
+          <source src="assets/movie.mp4" type="video/mp4" />
+
+          <p class="vjs-no-js">
+            Is your browser made of 💩💩💩💩💩💩💩💩
+            (or is your OS <a href="../Windows-XP-dumb-things/">Windows XP</a> ) ?
+          </p>
+
+        </video>
+
+        <div class="laughs annotation">
+          <span class="laughs__text">LAUGHS</span>
+          <div class="value">0</div>
+        </div>
+
+        <div class="your_score annotation">
+          <span class="your_score__text">SCORE</span>
+          <div class="value">0</div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="https://vjs.zencdn.net/7.8.3/video.js"></script>
+    <script src="js/face-api.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
