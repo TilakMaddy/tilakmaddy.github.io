@@ -12,10 +12,10 @@ const twttrShare = document.querySelector('.twitter-follow-button');
 const twttrFollow = document.querySelector('.twitter-share-button');
 
 Promise.all([
-  faceapi.nets.tinyFaceDetector.loadFromUri("/models"),
-  faceapi.nets.faceLandmark68Net.loadFromUri("/models"),
-  faceapi.nets.faceRecognitionNet.loadFromUri("/models"),
-  faceapi.nets.faceExpressionNet.loadFromUri("/models"),
+  faceapi.nets.tinyFaceDetector.loadFromUri("models"),
+  faceapi.nets.faceLandmark68Net.loadFromUri("models"),
+  faceapi.nets.faceRecognitionNet.loadFromUri("models"),
+  faceapi.nets.faceExpressionNet.loadFromUri("models"),
 ])
 .then(() => {
   navigator.getUserMedia(
