@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-size: inherit;
+}
+
+html,body {
+  background: #050801;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.musk-stuff {
+
+  position: absolute;
+  width: auto;
+}
