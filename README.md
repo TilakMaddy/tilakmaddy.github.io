@@ -15,5 +15,6 @@
 
 > [How to stay DRY in redux state mapping when using reselect ?](https://dev.to/tilakmaddy/how-to-stay-dry-in-redux-state-mapping-when-using-reselect-3k54)
 
+> [Recreating 'new' keyword in Javascript from scratch](https://dev.to/tilakmaddy/recreating-new-keyword-in-javascript-146k)
 
 *FUN FACT: This website is now safely stored in the **❄ Github Arctic Code Vault ❄** 🤙 😉*
