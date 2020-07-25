@@ -21,4 +21,6 @@
 
 > [Why you don't harness the full power of Javascript console](https://dev.to/tilakmaddy/why-you-don-t-know-basic-console-log-must-read-now-46n1)
 
+> [How to forward your localhost to the internet for the world to see](https://dev.to/tilakmaddy/how-to-expose-your-local-web-server-to-the-internet-for-free-pmd)
+
 *FUN FACT: This website is now safely stored in the **❄ Github Arctic Code Vault ❄** 🤙 😉*
