@@ -19,7 +19,7 @@
 
 > [Recreating 'new' keyword in Javascript from scratch](https://dev.to/tilakmaddy/recreating-new-keyword-in-javascript-146k)
 
-> [Why you don't harness the full power of Javascript console](https://dev.to/tilakmaddy/why-you-don-t-know-basic-console-log-must-read-now-46n1) **MOST POPULAR**
+> [Why you don't harness the full power of Javascript console](https://dev.to/tilakmaddy/why-you-don-t-know-basic-console-log-must-read-now-46n1)  **(MOST POPULAR)**
 
 > [How to forward your localhost to the internet for the world to see](https://dev.to/tilakmaddy/how-to-expose-your-local-web-server-to-the-internet-for-free-pmd)
 
