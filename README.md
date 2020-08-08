@@ -11,7 +11,7 @@
 
 ### Here are some articles that I wrote recently (for front-end developers) on DevTO
 
-### Profile link: [https://dev.to/tilakmaddy](https://dev.to/tilakmaddy)
+### Profile link: [https://dev.to/tilakmaddy](https://dev.to/tilakmaddy) ( 1200+ views )
 
 > [How to memoize correctly using Redux reselect for O(1) complexity?](https://dev.to/tilakmaddy/how-to-memoize-correctly-using-redux-reselect-20m7)
 
